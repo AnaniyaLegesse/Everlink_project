@@ -1,0 +1,12 @@
+.expirance-title {
+  margin-top: 20px;
+}
+.ml {
+  margin-left: 20px;
+}
+
+@media screen and (max-width:600px){
+  .expirance-title {
+    font-size: medium;
+  }
+}

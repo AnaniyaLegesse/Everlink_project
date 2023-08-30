@@ -1,0 +1,212 @@
+import React from "react";
+import { AiFillStar } from "react-icons/ai";
+
+const data = [
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKIzJSFihJTk7zBzdcWLsRGLhs7YSZc44kcw&usqp=CAU",
+    title: "Freiya Solomon",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    proffesion: "Actor",
+    education:"Degree",
+    expirance:"5",
+    category: "Female",
+  },
+
+  {
+    img: "https://media.afrocharts.com/file/afrocharts-media/uploads/2023/2/photo-2023-02-04-21-33-01-afrocharts-63e7a8d964f8ac1f934cbaf.jpg",
+    title: "Abel Mamo",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    proffesion:"Camera",
+    education:"Deploma",
+    expirance:"0",
+    category: "Male",
+  },
+
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPfzFnwctTdQm5nV24lXMqMLlzAFe1gBqq9950URB3bKMXq-wlzOHLTSZv_ixcgWWzCN8&usqp=CAU",
+    title: "Melat Zeru",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    proffesion:"Actor",
+    education:"Secondary",
+    expirance:"5",
+    category: "Female",
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlrRJB1hDYz5l5znmZjYmTymCNMH22CIeBXA&usqp=CAU",
+    title: "Abenezer Moges",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    proffesion:"Producer",
+    education:"Degree",
+    expirance:"3",
+    category: "Male",
+  },
+  
+  {
+    img: "https://static6.tgstat.ru/channels/_0/17/1730289427cf919a00b7891fbef1afc0.jpg",
+    title: "Hannan Tarik",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    proffesion:"Actor",
+    education:"Degree",
+    expirance:"10",
+    category: "Female",
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsNKKMNsl5Qg2-wg-OT1o_7_0c_FXOwihdKA&usqp=CAU",
+    title: "Yosef Amare",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    proffesion:"Camera",
+    education:"Deploma",
+    expirance:"0",
+    category: "Male",
+  },
+ 
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW4CVufwzDWh-mc7T275u4mQqhX-q6jLPUeA&usqp=CAU",
+    title: "Melat Zewdu",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    proffesion:"Actor",
+    company: "Nike",
+    education:"Primary",
+    expirance:"3",
+    category: "Female",
+  },
+
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP9vTGooygiJamDEa1B0L7oxXu9k5UA4lqsEly6n4HQTGRrN8ZzpY7hN3LD8UeLKfZpY8&usqp=CAU",
+    title: "Daniel Kiflu",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    proffesion:"Producer",
+    education:"Higher",
+    expirance:"5",
+    category: "Male",
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlip7DxeWJWL1ktx46K76RoyXeJzqvT6P6Zw&usqp=CAU",
+    title: "Selam Tefera",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    proffesion:"Writer",
+    education:"Higher",
+    expirance:"2",
+    category: "Female",
+  },
+   
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGZpW-LdX64AJ27Pn81PTAOskFzxIF6JxiWA&usqp=CAU",
+    title: "Biruk Fitsum",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    proffesion:"Producer",
+    education:"Higher",
+    expirance:"5",
+    category: "Male",
+  },
+  {
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM-sv3LhR-fLNaMSy1HYxOaUf8fMMQNm_HUVv5tlluevy2SzSKCVzUVdZmTHe827WL6q0&usqp=CAU",
+    title: "Helen dawit",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    proffesion:"Writer",
+    education:"Higher",
+    expirance:"5",
+    category: "Female",
+  },
+  
+  {
+    img:"https://www.pactworld.org/sites/default/files/styles/our_stories__featured/public/field-image/rect.jpg?itok=pjU1DdXf",
+    title: "Binyam Boja",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    proffesion:"Camera",
+    education:"Deploma",
+    expirance:"3",
+    category: "Male",
+  },
+ 
+
+ 
+  {
+    img:"https://ethiopiansmovies.com/wp-content/uploads/2017/10/Mulualem-tadese-Q-300x225.jpg",  
+    title: "Mulalem Tadesse",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    proffesion:"Actor",
+    education:"Higher",
+    expirance:"5",
+    category: "Mother",
+  },
+  {
+    img:"https://t3.ftcdn.net/jpg/03/69/61/24/360_F_369612471_pElQjsrsS2EJhXXW2LYiXVSfj1pIw1vb.jpg",
+    title: "Alemayew Melkam",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    proffesion:"Writer",
+    education:"Degree",
+    expirance:"5",
+    category: "Male",
+  },
+ 
+ 
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Qi8Pjc5wm_Jg5nBTtvbPkqFoieOdGKGjLg&usqp=CAU",
+    title: "Tadesse Gebru",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    proffesion:"Actor",
+    education:"Primary",
+    expirance:"1",
+    category: "Father",
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4BsPtNSRQFjKvkpci6UywUXB2iLEAfK8TRzyC7iht5JvrMSWmRGlZ2WZFuk1KustLUtM&usqp=CAU",
+    title: "Jalene Boru",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    proffesion:"Actor",
+    education:"Degree",
+    expirance:"1",
+    category: "Female",
+  },
+
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT5H0iTddvH2E9q_sjbuYw042ltAIWsu71Eg&usqp=CAU",
+    title: "Yabsira Tamru",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    proffesion:"Actor",
+    education:"Secondary",
+    expirance:"1",
+    category: "Male",
+  },
+  {
+    img:"https://i.pinimg.com/originals/3d/50/10/3d50106b57d417023814eed274a73d35.jpg",
+    title: "Sayat Demses",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    proffesion:"Writer",
+    education:"Higher",
+    expirance:"5",
+    category: "Female",
+  },
+  {
+    img: "https://miro.medium.com/v2/resize:fit:480/1*lV2I2QtKtf89CILGC3OL4Q.jpeg",
+    title: "Danawit Ebsa",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    proffesion:"Writer",
+    education:"Degree",
+    expirance:"1",
+    category: "Female",
+  }
+    
+];
+
+export default data;

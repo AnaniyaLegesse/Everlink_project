@@ -1,0 +1,39 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input {
+  padding: 12px 20px;
+  border: none;
+  background: #f8f7f7;
+  outline: none;
+  margin-right: 20px;
+  margin-top: 2rem;
+  border-radius: 5px;
+  position: relative;
+  width: 14rem;
+}
+
+.nav-icons {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width:800px){
+  nav{
+    margin-left: 2rem;
+    padding: 10px;
+  }
+  input{
+    margin-right: 2px;
+    width: 12rem;
+  }
+  .nav-icons{
+    margin-left: 0;
+  }
+}
+
